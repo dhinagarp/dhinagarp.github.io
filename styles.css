@@ -1,0 +1,306 @@
+/* Fullscreen sections */
+.fullscreen {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #f0f4f8; /* Changed background color */
+}
+
+/* Header styling */
+header {
+    background-color: white;
+    color: black; /* Changed text color to black */
+    padding: 0 6px; /* Adjusted padding */
+    font-family: 'Arial', sans-serif; /* Changed font style */
+    text-transform: capitalize; /* Made text uppercase */
+    letter-spacing: 1px; /* Added letter spacing */
+    width: 98.5%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+.header-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-title h1 {
+    margin: 0 10px;
+    font-size: 24px; /* Adjusted font size */
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #444544;
+    font-size: 14px;
+    font-family: 'Arial', sans-serif; /* Changed font style */
+    text-transform: uppercase;
+    letter-spacing: 1px; /* Added letter spacing */
+    transition: all 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: limegreen; /* Changed hover color to lime green */
+}
+
+/* Home section styling */
+.home-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.home-right h2 {
+    color: #39843c; /* Darker title color */
+    margin-bottom: 20px;
+
+}
+
+.trending-box {
+    width: 30%; /* 2/4 size */
+    border: 2px solid #ddd; /* Optional: Add border */
+    border-radius: 20px; /* Optional: Rounded corners */
+    padding: 20px; /* Optional: Inner padding */
+    background-color: #abb194; /* Optional: Background color */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Optional: Shadow effect */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content */
+    text-align: center; /* Center text */
+}
+
+.portfolio-image {
+    width: 100%; /* Responsive image */
+    height: auto;
+    border-radius: 50%; /* Optional: Circular image */
+}
+
+.name {
+    font-size: 2em;
+    margin: 10px 0;
+    color: black;
+}
+
+.software-engineer {
+    font-size: 1.2em;
+    color: #666; /* Optional: Color for emphasis */
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center; /* Center the icons */
+    margin-top: 10px; /* Space between text and icons */
+}
+
+.social-icon {
+    width: 30px; /* Set width for icons */
+    height: auto; /* Maintain aspect ratio */
+    margin: 0 10px; /* Space between icons */
+    transition: transform 0.2s; /* Add transition for hover effect */
+}
+
+.social-icon:hover {
+    transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+/* Resume section styling */
+.resume-section {
+    width: 80%;
+    margin-bottom: 5rem; 
+    margin: auto;
+    text-align: center;
+    background-color: #ffffff; /* White background */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+.resume-section h1 {
+    color: #39843c; /* Darker title color */
+    margin-bottom: 20px;
+}
+
+.download-button {
+    margin-bottom: 20px;
+}
+
+.download-link {
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.download-link:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+.resume-content {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+/* Resume columns */
+.resume-column {
+    width: 30%; /* Adjusted width for better layout */
+    margin: 10px;
+}
+
+.resume-column h3 {
+    color: #4CAF50; /* Green for section headings */
+    margin-bottom: 15px;
+}
+
+.resume-item {
+    margin-bottom: 20px;
+    text-align: left; /* Adjusted text alignment */
+    background-color: #f9f9f9; /* Light gray for items */
+    padding: 15px; /* Added padding */
+    border-radius: 8px; /* Added border radius */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Added box shadow */
+}
+
+.resume-item h4 {
+    margin-bottom: 5px;
+    color: #333; /* Darker text color */
+}
+
+.resume-item p {
+    margin-bottom: 5px;
+    color: #666; /* Changed color */
+}
+
+.resume-item ul {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: #666; /* Changed color */
+}
+
+.resume-item ul li {
+    margin-bottom: 5px;
+}
+
+/* Skills section styling */
+.skills ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+}
+
+.skills ul li {
+    background: #e0f7fa; /* Light cyan for skills */
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.skills ul li:hover {
+    background: #b2ebf2; /* Darker cyan on hover */
+}
+
+/* Contact section styling */
+#contact {
+    background: white;
+    color: black;
+    text-align: center;
+    border-radius: 15px;
+    margin: 20px auto; /* Center the box */
+    padding: 30px; /* Increased padding for more space */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Added shadow */
+    width: 60%; /* Set width to 60% of the screen */
+    max-width: 800px; /* Optional: Limit max width for larger screens */
+}
+
+#contact h2 {
+    color: #39843c;
+    margin-bottom: 20px;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact-form label {
+    margin-bottom: 5px;
+    color: #666; /* Changed color */
+}
+
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    padding: 15px; /* Increased padding for input fields */
+    margin-bottom: 15px; /* Increased margin for spacing */
+    border: 1px solid #ccc; /* Changed border color */
+    border-radius: 5px;
+}
+
+#contact-form button {
+    padding: 15px 25px; /* Increased padding for the button */
+    background-color: limegreen;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#contact-form button:hover {
+    background-color: #444544; /* Darker color on hover */
+}
+
+
+
+/* Footer styling */
+footer {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .resume-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .resume-column {
+        width: 80%; /* Full width on smaller screens */
+        margin-top: 20px;
+    }
+
+    .resume-item {
+        margin-bottom: 30px;
+    }
+}
