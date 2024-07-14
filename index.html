@@ -1,236 +1,256 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dhinagar</title>
-    <link rel="stylesheet" href="styles.css">
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-    <script type="text/javascript">
-        (function(){
-            emailjs.init('UnC_hT75BfMvW5y_J');
-        })();
-    </script>
-</head>
-<body>
-    <header class="header">
-        <div class="header-title">
-            <h1 class="name">Dhinagar P</h1>
-            <h1 class="software-engineer">/Software Engineer</h1>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="#home" id="home-link">Home</a></li>
-                <li><a href="#resume" id="resume-link">Resume</a></li> <!-- Added id="resume-link" -->
-                <li><a href="https://www.linkedin.com/in/dhinagar-p-192221104" target="_blank">LinkedIn</a></li>
-                <li><a href="#contact" id="contact-link">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dhinagar</title>
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+        <script type="text/javascript">
+            (function(){
+                emailjs.init('UnC_hT75BfMvW5y_J');
+            })();
+        </script>
+    </head>
+    <body>
+        <header class="header">
+            <div class="header-title">
+                <h1 class="name">Dhinagar P</h1>
+                <h2 class="subtitle">/ Software Engineer</h2>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#" id="home-link">Home</a></li>
+                    <li><a href="#" id="resume-link">Resume</a></li>
+                    <li><a href="https://www.linkedin.com/in/dhinagar-p-192221104" target="_blank">LinkedIn</a></li>
+                    <li><a href="#" id="contact-link">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
 
-    <section id="home" class="fullscreen">
-        <div class="home-container">
-            <div class="home-left trending-box"> <!-- Added trending-box class -->
-                <div class="home-image">
-                    <img src="image1.jpg" alt="Profile Image" class="portfolio-image">
+        <section id="home" class="fullscreen">
+            <div class="home-container">
+                <div class="home-left">
+                    <div class="home-image">
+                        <img src="image2.jpg" alt="Profile Image" class="portfolio-image">
+                    </div>
+                    <div class="home-text">
+                        <h1 class="name">Dhinagar P</h1>
+                        <span class="software-engineer">Automation Engineer</span>
+                    </div>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/dhinagar-p-192221104" target="_blank">
+                            <img src="linkedin_icon.png" alt="LinkedIn" class="social-icon">
+                        </a>
+                        <a href="https://github.com/dhinagar257/" target="_blank">
+                            <img src="github_icon.png" alt="GitHub" class="social-icon">
+                        </a>
+                        <a href="https://www.instagram.com/dhinagardhiva/" target="_blank">
+                            <img src="instagram_icon.png" alt="Instagram" class="social-icon">
+                        </a>
+                    </div>
                 </div>
-                <div class="home-text">
-                    <h1 class="name">Dhinagar P</h1>
-                    <span class="software-engineer">Automation Engineer</span>
-                </div>
-                <div class="social-icons"> <!-- New div for social media icons -->
-                    <a href="https://www.linkedin.com/in/dhinagar-p-192221104" target="_blank">
-                        <img src="linkedin_icon.png" alt="LinkedIn" class="social-icon">
-                    </a>
-                    <a href="https://github.com/dhinagar257/" target="_blank">
-                        <img src="github_icon.png" alt="GitHub" class="social-icon">
-                    </a>
-                    <a href="https://www.instagram.com/dhinagardhiva/" target="_blank">
-                        <img src="instagram_icon.png" alt="Instagram" class="social-icon">
-                    </a>
+                <div class="home-right">
+                    <h1>Hello! I'm Dhinagar</h1>
+                    <h2>Welcome to My Portfolio</h2>
+                    <p>I am passionate about automation engineering and have developed an innovative framework for our automation team.This framework streamlines the process by automatically downloading builds from Jenkins and loading them into designated environments. It executes a series of predefined scripts, generating comprehensive output on webpage format. Additionally, the framework updates the results directly into our database, ensuring that our web page reflects the most current information. This efficient solution not only enhances productivity but also ensures real-time visibility of the testing outcomes, allowing the team to make informed decisions quickly.</p>
                 </div>
             </div>
-            <div class="home-right">
-                <h2>Welcome to My Portfolio</h2>
-                <p>I am passionate about automation engineering and have developed an innovative framework for our automation team.</p>
-                <p>This framework streamlines the process by automatically downloading builds from Jenkins and loading them into</p> 
-                <p>designated environments. It executes a series of predefined scripts, generating comprehensive output on webpage </p>
-                <p>format. Additionally, the framework updates the results directly into our database, ensuring that our web page </p>
-                <p>reflects the most current information. This efficient solution not only enhances productivity but also ensures</p>
-                <p>real-time visibility of the testing outcomes, allowing the team to make informed decisions quickly.</p>
-            </div>
-        </div>
-    </section>
-    
-    <section id="resume">
-        <div class="resume-section">
-            <h1>Resume</h1>
-            <div class="resume-content">
-                <div class="resume-column experience">
-                    <h3>Work Experience</h3>
-                    <div class="resume-item">
-                        <h4>Software Engineer</h4>
-                        <p class="company">Hewlett-Packard Enterprise - Dec 2023 to Present</p>
-                        <p>Responsibilities:</p>
+        </section>
+        
+        <section id="resume" class="fullscreen hidden">
+            <div class="resume-container">
+                <div class="resume-section skills">
+                    <h1>Skills</h1>
+                    <div class="resume-content">
+                        <div class="resume-item">
                         <ul>
-                            <li>Automating AFC protocols using Python</li>
-                            <li>Verifying the Datacenter protocols via AFC</li>
-                        </ul>
-                    </div>
-                    <div class="resume-item">
-                        <h4>Senior Engineer</h4>
-                        <p class="company">Commscope - July 2022 to Dec 2023</p>
-                        <p>Responsibilities:</p>
-                        <ul>
-                            <li>Developed and maintained web applications using HTML, CSS, Python, and JavaScript.</li>
-                            <li>Assisted in the design and implementation of database structures.</li>
-                            <li>Participated in code reviews and contributed to team knowledge sharing sessions.</li>
-                        </ul>
-                    </div>
-                    <div class="resume-item">
-                        <h4>Senior Engineer</h4>
-                        <p class="company">Wipro - March 2021 to July 2022</p>
-                        <p>Responsibilities:</p>
-                        <ul>
-                            <li>Developed scripts using the Robot framework.</li>
-                            <li>Worked on SDN controller features.</li>
-                            <li>Analyzed Optical Devices YANG and integrated them into the SDN controller.</li>
-                        </ul>
-                    </div>
-                    <div class="resume-item">
-                        <h4>Senior Software Engineer</h4>
-                        <p class="company">HCL Technologies Ltd - May 2017 to March 2021</p>
-                        <p>Responsibilities:</p>
-                        <ul>
-                            <li>Developed scripts using the Pytest framwork.</li>
-                            <li>Worked on L2/L3/managebility/Security protocols.</li>
+                            <li>Python, JavaScript, HTML, CSS, SQL</li>
+                            <li>Jenkins, Docker, Kubernetes,Xampp</li>
+                            <li>SDN,L2/L3/Managebility/Security protocols</li>
+                            <li>Bitbucket, GitHub, JIRA, Grafana</li>
+                            <li>Linux, Pytest, Robot, Cypress</li>
+                            <li>Android, Appium, UIAutomator</li>
                         </ul>
                     </div>
                 </div>
-                <div class="resume-column education">
-                    <h3>Education</h3>
-                    <div class="resume-item">
-                        <h4>Bachelor of Engineering</h4>
-                        <p class="company">Anna University-PRCET</p>
-                        <p>Relevant coursework:</p>
-                        <ul>
-                            <li>Electronics and Communication Engineering</li>
-                        </ul>
+                </div>
+                <div class="resume-section experience">
+                    <h1>Work Experience</h1>
+                    <div class="resume-content">
+                        <div class="resume-item">
+                            <h4>Software Engineer</h4>
+                            <p class="company">Hewlett-Packard Enterprise - Dec 2023 to Present</p>
+                            <p>Responsibilities:</p>
+                            <ul>
+                                <li>Automating AFC protocols using Python</li>
+                                <li>Verifying the Datacenter protocols via AFC</li>
+                            </ul>
+                        </div>
+                        <div class="resume-item">
+                            <h4>Senior Engineer</h4>
+                            <p class="company">Commscope - July 2022 to Dec 2023</p>
+                            <p>Responsibilities:</p>
+                            <ul>
+                                <li>Developed and maintained web applications using HTML, CSS, Python, and JavaScript.</li>
+                                <li>Assisted in the design and implementation of database structures.</li>
+                                <li>Participated in code reviews and contributed to team knowledge sharing sessions.</li>
+                            </ul>
+                        </div>
+                        <div class="resume-item">
+                            <h4>Senior Engineer</h4>
+                            <p class="company">Wipro - March 2021 to July 2022</p>
+                            <p>Responsibilities:</p>
+                            <ul>
+                                <li>Developed scripts using the Robot framework.</li>
+                                <li>Worked on SDN controller features.</li>
+                                <li>Analyzed Optical Devices YANG and integrated them into the SDN controller.</li>
+                            </ul>
+                        </div>
+                        <div class="resume-item">
+                            <h4>Senior Software Engineer</h4>
+                            <p class="company">HCL Technologies Ltd - May 2017 to March 2021</p>
+                            <p>Responsibilities:</p>
+                            <ul>
+                                <li>Developed scripts using the Pytest framework.</li>
+                                <li>Worked on L2/L3/Managebility/Security(Networking) features.</li>
+                                <li>Developed standalone scripts using multithreading,multiprocessing etc which is not supported on pytest framework</li>
+                            </ul>
+                        </div>
                     </div>
-                    
-                    <div class="resume-column skills"></div>
-                    <h3>Skills</h3>
-                    <div class="resume-item">
-                    <ul>
-                        <li>Python, JavaScript, HTML, CSS, SQL</li>
-                        <li>Jenkins, Docker, Kubernetes, Networking</li>
-                        <li>Bitbucket, GitHub, JIRA, Grafana</li>
-                        <li>Linux,Pytest,Robot,Cypress</li>
-                        <li>Android, Appium, UIAutomator</li>
-                    </ul>
                 </div>
-                <div class="resume-column skills"></div>
-                <h3>Attachment</h3>
-                <div class="download-button">
-                    <a href="./Resume.docx" target="_self" class="download-link">
-                        <span>Download CV</span>
-                    </a>
-                </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="contact" class="fullscreen">
-        <div>
-            <h2>Contact Me</h2>
-            <form id="contact-form">
-                <label form="name" style="font-weight: bold;">Name:</label>
-                <input type="text" id="name" name="name" required>
-                <label form="email" style="font-weight: bold;">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <label form="message" style="font-weight: bold;">Message:</label>
-                <textarea id="message" name="message" rows="4" required></textarea>
-                <button type="submit">Send</button>
-            </form>
-        </div>
-    </section>
-
-    <footer>
-        <div>
-            <p>&copy; 2024 Dhinagar. All rights reserved.</p>
-        </div>
-    </footer>
-
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const homeSection = document.getElementById('home');
-            const contactSection = document.getElementById('contact');
-            const resumeSection = document.getElementById('resume'); // Added resume section
-            const homeLink = document.getElementById('home-link');
-            const contactLink = document.getElementById('contact-link');
-            const resumeLink = document.getElementById('resume-link'); // Added resume link
-
-            // Function to hide all sections
-            function hideAllSections() {
-                homeSection.style.display = 'none';
-                contactSection.style.display = 'none';
-                resumeSection.style.display = 'none'; // Hide resume section
-            }
-
-            // Initial setup: Hide all sections except home
-            hideAllSections();
-            homeSection.style.display = 'flex'; // Display home initially
-
-            // Event listeners for navigation links
-            homeLink.addEventListener('click', function(event) {
-                event.preventDefault(); // Prevent default link behavior
-                hideAllSections();
-                homeSection.style.display = 'flex'; // Display home section
-                homeSection.scrollIntoView({ behavior: 'smooth' }); // Scroll to home section
-            });
-
-            contactLink.addEventListener('click', function(event) {
-                event.preventDefault(); // Prevent default link behavior
-                hideAllSections();
-                contactSection.style.display = 'flex'; // Display contact section
-                contactSection.scrollIntoView({ behavior: 'smooth' }); // Scroll to contact section
-            });
-
-            resumeLink.addEventListener('click', function(event) {
-                event.preventDefault(); // Prevent default link behavior
-                hideAllSections();
-                resumeSection.style.display = 'flex'; // Display resume section
-                resumeSection.scrollIntoView({ behavior: 'smooth' }); // Scroll to resume section
-            });
-
-            // Contact form submission
-            document.getElementById('contact-form').addEventListener('submit', function(e) {
-                e.preventDefault(); // Prevent default form submission
                 
-                // Get form data
-                const name = document.getElementById('name').value;
-                const email = document.getElementById('email').value;
-                const message = document.getElementById('message').value;
+                <div class="resume-section education">
+                    <h1>Education</h1>
+                    <div class="resume-content">
+                        <div class="resume-item">
+                            <h4>Bachelor of Engineering</h4>
+                            <p class="company">Anna University-PRCET</p>
+                            <p>Relevant course:</p>
+                            <ul>
+                                <li>Electronics and Communication Engineering</li>
+                            </ul>
+                        </div>
+                        <!-- Add more education items as needed -->
+                    </div>
+                </div>
+                
 
-                // Example of sending an email via EmailJS
-                emailjs.send('service_d3m3jgd', 'template_5ds39nw', {
-                    from_name: name,
-                    from_email: email,
-                    to_name: 'Dhinagar',
-                    message: message
-                }).then(function(response) {
-                    alert('Your message has been sent successfully!');
-                    console.log('SUCCESS!', response.status, response.text);
-                }, function(error) {
-                    alert('Oops! There was an error sending your message.');
-                    console.log('FAILED...', error);
+                <div class="resume-section cv">
+                    <h1>Resume CV</h1>
+                    <div class="resume-content">
+                    <div class="download-button">
+                        <a href="./Resume.docx" target="_self" class="download-link">
+                            <span>Download CV</span>
+                        </a>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="fullscreen hidden">
+            <div>
+                <h2>Contact Me</h2>
+                <form id="contact-form">
+                    <label form="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label form="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label form="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    <button type="submit">Send</button>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/dhinagar-p-192221104" target="_blank">
+                            <img src="linkedin_icon.png" alt="LinkedIn" class="social-icon">
+                        </a>
+                        <a href="https://github.com/dhinagar257/" target="_blank">
+                            <img src="github_icon.png" alt="GitHub" class="social-icon">
+                        </a>
+                        <a href="https://www.instagram.com/dhinagardhiva/" target="_blank">
+                            <img src="instagram_icon.png" alt="Instagram" class="social-icon">
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <div>
+                <p>&copy; 2024 Dhinagar. All rights reserved.</p>
+            </div>
+        </footer>
+
+        <script>
+        document.addEventListener('DOMContentLoaded', function() {
+                const homeSection = document.getElementById('home');
+                const contactSection = document.getElementById('contact');
+                const resumeSection = document.getElementById('resume'); // Added resume section
+                const homeLink = document.getElementById('home-link');
+                const contactLink = document.getElementById('contact-link');
+                const resumeLink = document.getElementById('resume-link'); // Added resume link
+
+                // Function to hide all sections
+                function hideAllSections() {
+                    homeSection.style.display = 'none';
+                    contactSection.style.display = 'none';
+                    resumeSection.style.display = 'none'; // Hide resume section
+                }
+
+                // Initial setup: Hide all sections except home
+                hideAllSections();
+                homeSection.style.display = 'flex'; // Display home initially
+
+                // Event listeners for navigation links
+                homeLink.addEventListener('click', function(event) {
+                    event.preventDefault(); // Prevent default link behavior
+                    hideAllSections();
+                    homeSection.style.display = 'flex'; // Display home section
+                    homeSection.scrollIntoView({ behavior: 'smooth' }); // Scroll to home section
                 });
 
-                // Clear the form after submission (optional)
-                document.getElementById('contact-form').reset();
+                contactLink.addEventListener('click', function(event) {
+                    event.preventDefault(); // Prevent default link behavior
+                    hideAllSections();
+                    contactSection.style.display = 'flex'; // Display contact section
+                    contactSection.scrollIntoView({ behavior: 'smooth' }); // Scroll to contact section
+                });
+
+                resumeLink.addEventListener('click', function(event) {
+                    event.preventDefault(); // Prevent default link behavior
+                    hideAllSections();
+                    resumeSection.style.display = 'flex'; // Display resume section
+                    resumeSection.scrollIntoView({ behavior: 'smooth' }); // Scroll to resume section
+                });
+
+                // Contact form submission
+                document.getElementById('contact-form').addEventListener('submit', function(e) {
+                    e.preventDefault(); // Prevent default form submission
+                    
+                    // Get form data
+                    const name = document.getElementById('name').value;
+                    const email = document.getElementById('email').value;
+                    const message = document.getElementById('message').value;
+
+                    // Example of sending an email via EmailJS
+                    emailjs.send('service_d3m3jgd', 'template_5ds39nw', {
+                        from_name: name,
+                        from_email: email,
+                        to_name: 'Dhinagar',
+                        message: message
+                    }).then(function(response) {
+                        alert('Your message has been sent successfully!');
+                        console.log('SUCCESS!', response.status, response.text);
+                    }, function(error) {
+                        alert('Oops! There was an error sending your message.');
+                        console.log('FAILED...', error);
+                    });
+
+                    // Clear the form after submission (optional)
+                    document.getElementById('contact-form').reset();
+                });
             });
-        });
-    </script>
-</body>
-</html>
+        </script>
+    </body>
+    </html>
