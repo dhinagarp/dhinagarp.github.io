@@ -144,6 +144,13 @@
     }
 
     /* Resume section styles */
+    .company-logo {
+        width: 50px; /* Adjust size as needed */
+        height: auto;
+        vertical-align: middle; /* Aligns logo with text */
+        margin-right: 8px; /* Space between logo and text */
+    }
+
     .resume-container {
         text-align: center;
         max-width: 800px;
