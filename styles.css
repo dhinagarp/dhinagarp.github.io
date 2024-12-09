@@ -69,6 +69,9 @@
         background-color: #555;
         border-radius: 5px;
     }
+    .name_heading,.subtitle,.footer_color {
+        color: #e4c023;
+    }
 
     /* Fullscreen sections */
     .fullscreen {
